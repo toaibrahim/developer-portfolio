@@ -260,3 +260,7 @@ textarea{
 form input[type='submit']{
     display: block;
 }
+.fa-download,.fa-phone{
+    margin-right: 10px;
+    font-size: 18px;
+}
