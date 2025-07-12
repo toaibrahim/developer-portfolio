@@ -1,0 +1,87 @@
+
+.open-sans-extrabold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+
+/* Nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.primary-text{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.dark-2{
+    color:#474747 ;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #fff;
+    font-weight: bold;
+    padding: 19px 36px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero section */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-image{
+    width: 494px;
+    height: 576px;
+}
+
